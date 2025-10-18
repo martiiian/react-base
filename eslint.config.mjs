@@ -34,6 +34,35 @@ export default [
       'no-debugger': 'error',
       'no-unused-vars': 'off', // Отключаем, используем TS версию
       'no-undef': 'off', // Отключаем, TypeScript проверяет это
+      'semi': ['error', 'never'],
+      'quotes': ['error', 'single'],
+      'object-curly-spacing': ['error', 'always'],
+      'import/order': [
+        'error',
+        {
+          'groups': [
+            'builtin',
+            'external',
+            'internal',
+            ['parent', 'sibling'],
+            'index',
+          ],
+          'pathGroups': [
+            {
+              'pattern': './src/**',
+              'group': 'internal',
+              'position': 'before'
+            }
+          ],
+          'pathGroupsExcludedImportTypes': ['builtin'],
+          'newlines-between': 'always',
+          'alphabetize': {
+            'order': 'asc',
+            'caseInsensitive': true
+          }
+        }
+      ],
+
 
       // TypeScript правила
       '@typescript-eslint/no-unused-vars': ['error', {
