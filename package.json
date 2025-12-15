@@ -2,12 +2,6 @@
   "name": "web-admin",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "classnames": "^2.5.1",
-    "react": "^19.1.0",
-    "react-dom": "^19.2.0",
-    "react-router-dom": "^7.9.4"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -33,28 +27,30 @@
       "last 1 safari version"
     ]
   },
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.10.1"
+  },
   "devDependencies": {
-    "@eslint/js": "^9.38.0",
-    "@types/react": "^19.1.12",
-    "@types/react-dom": "^19.2.2",
+    "@eslint/js": "^9.39.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
     "@types/react-router-dom": "^5.3.3",
-    "@typescript-eslint/eslint-plugin": "^8.43.0",
-    "@typescript-eslint/parser": "^8.46.2",
-    "@vitejs/plugin-react": "^4.6.0",
-    "eslint": "^9.32.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.1",
-    "@vitejs/plugin-react": "^5.1.0",
-    "eslint": "^9.38.0",
+    "@typescript-eslint/eslint-plugin": "^8.49.0",
+    "@typescript-eslint/parser": "^8.49.0",
+    "@vitejs/plugin-react": "^5.1.2",
+    "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.24",
-    "globals": "^16.4.0",
-    "prettier": "^3.6.2",
-    "sass": "^1.89.2",
+    "eslint-plugin-react-refresh": "^0.4.25",
+    "globals": "^16.5.0",
+    "prettier": "^3.7.4",
+    "sass": "^1.96.0",
     "typescript": "^5.9.3",
-    "vite": "^7.1.12"
+    "vite": "^7.3.0"
   }
 }
